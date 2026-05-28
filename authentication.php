@@ -15,7 +15,7 @@ header("Content-Type: application/json");
 $mailchimp_api_key = "db14be6c4f866e0f7192e7974ebd4f81-us5";
 $mailchimp_server_prefix = "us5"; // Example: us21
 $mailchimp_audience_id = "a99269de23";
-
+ 
 $smtp_host = "mail.amobichomes.com";
 $smtp_port =  465;
 $smtp_username = "webmaster@amobichomes.com";
