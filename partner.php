@@ -258,7 +258,7 @@ if (empty($_SESSION["csrf_token"])) {
           submitBtn.html('<span class="spinner-border spinner-border-sm"></span> Sending...');
 
           $.ajax({
-            url: "authentication.php",
+            url: "authentication",
             type: "POST",
             data: form.serialize(),
             dataType: "json",
