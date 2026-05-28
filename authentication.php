@@ -103,7 +103,7 @@ function renderEmailTemplate($template_path, $merge_fields = []) {
         $html = str_replace("*|" . $key . "|*", htmlspecialchars((string) $value, ENT_QUOTES, "UTF-8"), $html);
     }
 
-    $html = str_replace("*|UNSUB|*", "https://www.amobic.com/", $html);
+    $html = str_replace("*|UNSUB|*", "https://www.amobichomes.com/", $html);
 
     return $html;
 }
@@ -137,7 +137,7 @@ function sendConfirmationEmail($to_email, $to_name, $subject, $template_path, $m
         $mail->addReplyTo($mail_from_address, $mail_from_name);
         $mail->Subject = $subject;
         $mail->Body = renderEmailTemplate($template_path, $merge_fields);
-        $mail->AltBody = "Thank you for joining the Amobic waitlist. We have received your submission and will contact you with next steps.";
+        $mail->AltBody = "Thank you for joining the Amobic Homes waitlist. We have received your submission and will contact you with next steps.";
 
         return $mail->send();
     } catch (MailException $e) {
