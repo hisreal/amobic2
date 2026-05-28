@@ -138,6 +138,7 @@
     sidebarOverlay.classList.remove("active");
     });
 </script>
+<?php if (!empty($extraScripts)) { echo $extraScripts; } ?>
 </body>
 
 </html>

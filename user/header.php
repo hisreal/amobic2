@@ -6,7 +6,8 @@ $page_titles = [
     "dashboard.php" => "My Bookings | Amobic Homes",
     "saved-home.php" => "Saved Homes | Amobic Homes",
     "profile.php" => "My Profile | Amobic Homes",
-    "password.php" => "Change Password | Amobic Homes"
+    "password.php" => "Change Password | Amobic Homes",
+    "property-listing.php" => "List Your Property | Amobic Homes"
 ];
 $pageTitle = $pageTitle ?? ($page_titles[$current_page] ?? "Dashboard | Amobic Homes");
 $pageUrl = $pageUrl ?? "https://www.amobic.com/user/" . $current_page;
@@ -41,6 +42,9 @@ $pageUrl = $pageUrl ?? "https://www.amobic.com/user/" . $current_page;
     <!-- custom CSS -->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../assets/css/style.css?v=<?php echo filemtime('../assets/css/style.css');?>">
+    <?php if ($current_page === "property-listing.php"): ?>
+      <link rel="stylesheet" href="../assets/css/property-listing.css?v=<?php echo filemtime('../assets/css/property-listing.css');?>">
+    <?php endif; ?>
     <!-- Structured Data -->
  
 </head>
@@ -86,6 +90,10 @@ $pageUrl = $pageUrl ?? "https://www.amobic.com/user/" . $current_page;
                 Change Password
             </a>
 
+            <a href="property-listing.php" class="<?= ($current_page == 'property-listing.php') ? 'active' : ''; ?>">
+                List Property
+            </a>
+
             <a href="logout.php" class="<?= ($current_page == 'logout.php') ? 'active' : ''; ?>">
                 Logout
             </a>
@@ -125,6 +133,9 @@ $pageUrl = $pageUrl ?? "https://www.amobic.com/user/" . $current_page;
         </a>
         <a href="password.php" class="<?= ($current_page == 'password.php') ? 'active' : ''; ?>">
           <i class="bi bi-lock"></i> Password
+        </a>
+        <a href="property-listing.php" class="<?= ($current_page == 'property-listing.php') ? 'active' : ''; ?>">
+          <i class="bi bi-building-add"></i> List Property
         </a>
         <a href="logout.php" class="<?= ($current_page == 'logout.php') ? 'active' : ''; ?>">
           <i class="bi bi-box-arrow-right"></i> Logout

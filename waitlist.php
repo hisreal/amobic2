@@ -163,7 +163,7 @@
 
         </div>
         <div style="margin-top: 2rem; padding: 10px;" class="row justify-content-center">
-        <div class="amobic-waitlist-card wow animate__fadeInUp justify-content-center col-lg-6">
+        <div class="amobic-waitlist-card wow animate__fadeInUp col-lg-8 col-md-8">
           <div class="amobic-waitlist-card-top">
             <span>Priority Access</span>
             <strong>Year 1</strong>
@@ -193,7 +193,7 @@
           
         
         </div>
-        <div class="amobic-waitlist-proof">
+        <div class="amobic-waitlist-proof ">
             <i class="bi bi-shield-check"></i>
             <span>
               Already trusted by property owners in Atlantic Seaboard, Sea Point
