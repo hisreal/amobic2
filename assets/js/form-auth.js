@@ -74,7 +74,7 @@ $(document).ready(function () {
 
   handleAjaxForm("#profileForm", "config/send-code.php", "Save Changes");
 
-  handleAjaxForm("#loginForm", "config/send-code", "Login");
+  handleAjaxForm("#loginForm", "config/send-code.php", "Login");
 
   handleAjaxForm("#profileUpdateForm", "../config/update-code.php", "Save Changes");
 
