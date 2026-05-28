@@ -1,0 +1,195 @@
+[17-May-2026 23:01:25 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[17-May-2026 23:01:28 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[17-May-2026 23:01:29 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[17-May-2026 23:01:30 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[17-May-2026 23:01:37 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[17-May-2026 23:01:38 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[17-May-2026 23:02:03 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[17-May-2026 23:07:05 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[17-May-2026 23:07:32 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[17-May-2026 23:08:17 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[17-May-2026 23:08:43 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[17-May-2026 23:09:29 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[17-May-2026 23:09:41 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[17-May-2026 23:09:53 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[18-May-2026 07:19:53 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[18-May-2026 07:19:55 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[18-May-2026 07:19:58 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[18-May-2026 07:19:59 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[18-May-2026 07:20:01 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[18-May-2026 07:20:02 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[18-May-2026 07:20:03 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[18-May-2026 07:20:21 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[18-May-2026 07:20:22 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[18-May-2026 07:20:25 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[18-May-2026 07:20:37 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[18-May-2026 07:21:08 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[18-May-2026 13:00:19 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'amobic_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[18-May-2026 13:17:54 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'amobicho_hisreal'@'localhost' (using password: YES) in /home/amobicho/public_html/amobic/config/dbh.php:2
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/dbh.php(2): mysqli->__construct('localhost', 'amobicho_hisrea...', Object(SensitiveParameterValue), 'amobicho_homes')
+#1 /home/amobicho/public_html/amobic/config/send-code.php(4): require('/home/amobicho/...')
+#2 {main}
+  thrown in /home/amobicho/public_html/amobic/config/dbh.php on line 2
+[18-May-2026 16:02:35 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'bio = ?
+        WHERE id = ?' at line 9 in /home/amobicho/public_html/amobic/config/update-code.php:75
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/update-code.php(75): mysqli->prepare('\n        UPDATE...')
+#1 {main}
+  thrown in /home/amobicho/public_html/amobic/config/update-code.php on line 75
+[18-May-2026 16:20:16 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'bio = ?
+        WHERE id = ?' at line 9 in /home/amobicho/public_html/amobic/config/update-code.php:75
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/update-code.php(75): mysqli->prepare('\n        UPDATE...')
+#1 {main}
+  thrown in /home/amobicho/public_html/amobic/config/update-code.php on line 75
+[18-May-2026 16:20:18 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'bio = ?
+        WHERE id = ?' at line 9 in /home/amobicho/public_html/amobic/config/update-code.php:75
+Stack trace:
+#0 /home/amobicho/public_html/amobic/config/update-code.php(75): mysqli->prepare('\n        UPDATE...')
+#1 {main}
+  thrown in /home/amobicho/public_html/amobic/config/update-code.php on line 75
+[21-May-2026 00:58:31 Africa/Lagos] PHPMailer verification failed for livingseedofficial@gmail.com: SMTP Error: Could not authenticate.
+[25-May-2026 07:26:40 Africa/Lagos] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in /home/amobicho/public_html/amobic/config/send-code.php on line 349
+[28-May-2026 12:47:40 Africa/Lagos] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in /home/amobicho/public_html/amobic/config/send-code.php on line 349
+[28-May-2026 12:47:49 Africa/Lagos] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in /home/amobicho/public_html/amobic/config/send-code.php on line 349
+[28-May-2026 12:47:57 Africa/Lagos] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in /home/amobicho/public_html/amobic/config/send-code.php on line 349
+[28-May-2026 12:48:04 Africa/Lagos] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in /home/amobicho/public_html/amobic/config/send-code.php on line 349
+[28-May-2026 12:48:44 Africa/Lagos] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in /home/amobicho/public_html/amobic/config/send-code.php on line 349
+[28-May-2026 12:49:05 Africa/Lagos] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in /home/amobicho/public_html/amobic/config/send-code.php on line 349
+[28-May-2026 12:49:13 Africa/Lagos] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in /home/amobicho/public_html/amobic/config/send-code.php on line 349
