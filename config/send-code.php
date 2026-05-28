@@ -2,9 +2,9 @@
 
 session_start();
 require "dbh.php";
-require __DIR__ . "/../../PHPMailer/src/Exception.php";
-require __DIR__ . "/../../PHPMailer/src/PHPMailer.php";
-require __DIR__ . "/../../PHPMailer/src/SMTP.php";
+require __DIR__ . "/../PHPMailer/src/Exception.php";
+require __DIR__ . "/../PHPMailer/src/PHPMailer.php";
+require __DIR__ . "/../PHPMailer/src/SMTP.php";
 
 use PHPMailer\PHPMailer\Exception as MailException;
 use PHPMailer\PHPMailer\PHPMailer;
@@ -25,6 +25,15 @@ function jsonResponse($status, $message, $redirect = null) {
         "message" => $message,
         "redirect" => $redirect
     ]);
+    exit;
+}
+
+function send_json($status, $message, $code = 200, $extra = []) {
+    http_response_code($code);
+    echo json_encode(array_merge([
+        "status" => $status,
+        "message" => $message
+    ], $extra));
     exit;
 }
 
@@ -453,42 +462,49 @@ try {
     $mailchimp_server = "us21";
     $mailchimp_list_id = "YOUR_AUDIENCE_LIST_ID";
 
-    $subscriber_hash = md5(strtolower($email));
+    if (
+        $mailchimp_api_key !== "YOUR_MAILCHIMP_API_KEY" &&
+        $mailchimp_list_id !== "YOUR_AUDIENCE_LIST_ID" &&
+        $mailchimp_api_key !== "" &&
+        $mailchimp_list_id !== ""
+    ) {
+        $subscriber_hash = md5(strtolower($email));
 
-    $mailchimp_url = "https://" . $mailchimp_server . ".api.mailchimp.com/3.0/lists/" . $mailchimp_list_id . "/members/" . $subscriber_hash;
+        $mailchimp_url = "https://" . $mailchimp_server . ".api.mailchimp.com/3.0/lists/" . $mailchimp_list_id . "/members/" . $subscriber_hash;
 
-    $mailchimp_data = [
-        "email_address" => $email,
-        "status_if_new" => "subscribed",
-        "merge_fields" => [
-            "FNAME" => $name,
-            "PTYPE" => $property_type,
-            "AREA" => $area,
-            "UNITS" => (string) $number_of_units
-        ],
-        "tags" => [
-            "Property Owner Waitlist"
-        ]
-    ];
+        $mailchimp_data = [
+            "email_address" => $email,
+            "status_if_new" => "subscribed",
+            "merge_fields" => [
+                "FNAME" => $name,
+                "PTYPE" => $property_type,
+                "AREA" => $area,
+                "UNITS" => (string) $number_of_units
+            ],
+            "tags" => [
+                "Property Owner Waitlist"
+            ]
+        ];
 
-    $ch = curl_init();
+        $ch = curl_init();
 
-    curl_setopt($ch, CURLOPT_URL, $mailchimp_url);
-    curl_setopt($ch, CURLOPT_USERPWD, "user:" . $mailchimp_api_key);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, ["Content-Type: application/json"]);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
-    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($mailchimp_data));
-    curl_setopt($ch, CURLOPT_TIMEOUT, 20);
+        curl_setopt($ch, CURLOPT_URL, $mailchimp_url);
+        curl_setopt($ch, CURLOPT_USERPWD, "user:" . $mailchimp_api_key);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, ["Content-Type: application/json"]);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($mailchimp_data));
+        curl_setopt($ch, CURLOPT_TIMEOUT, 20);
 
-    $response = curl_exec($ch);
-    $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    $curl_error = curl_error($ch);
+        $response = curl_exec($ch);
+        $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        $curl_error = curl_error($ch);
 
-    curl_close($ch);
+        curl_close($ch);
 
-    if ($curl_error || $http_code < 200 || $http_code >= 300) {
-        throw new Exception("Mailchimp sync failed.");
+        if ($curl_error || $http_code < 200 || $http_code >= 300) {
+            error_log("Mailchimp sync failed for {$email}: " . ($curl_error ?: $response));
+        }
     }
 
     mysqli_commit($conn);
@@ -503,7 +519,5 @@ try {
     send_json("error", "Something went wrong. Please try again.", 500);
 }
 }
-
-
 
 
