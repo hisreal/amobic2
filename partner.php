@@ -256,7 +256,7 @@ if (empty($_SESSION["csrf_token"])) {
           alertBox.html("");
           submitBtn.prop("disabled", true);
           submitBtn.html('<span class="spinner-border spinner-border-sm"></span> Sending...');
-
+  
           $.ajax({
             url: "authentication",
             type: "POST",
