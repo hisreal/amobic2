@@ -355,7 +355,7 @@ if (isset($_POST["login-user"])) {
     $_SESSION["guest_name"] = $user["first_name"] . " " . $user["last_name"];
     $_SESSION["logged_in"] = true;
 
-    jsonResponse("success", "Login successful.", "user/dashboard.php");
+    jsonResponse("success", "Login successful.", "user/dashboard");
 }
 
 // PROPERTY OWNER WAITLIST
