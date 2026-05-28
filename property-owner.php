@@ -333,7 +333,7 @@ function handleAjaxForm(formId, url, buttonText = "Continue") {
 }
 
 
-handleAjaxForm("#PropertyOwnerForm", "authentication.php", "Join Property Owner Waitlist");
+handleAjaxForm("#PropertyOwnerForm", "authentication", "Join Property Owner Waitlist");
 
 });
 
