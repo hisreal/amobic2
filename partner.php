@@ -185,7 +185,7 @@ if (empty($_SESSION["csrf_token"])) {
             <option value="spa">Spa</option>
             <option value="wellness">Wellness</option>
             <option value="experience">Experience</option>
-            <option value="transport">Transport</option>
+            <option value="transport">Chauffeur Service</option>
           </select>
 
           <label>Location</label>

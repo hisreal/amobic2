@@ -177,8 +177,8 @@ if (empty($_SESSION["csrf_token"])) {
                   <option value="apartment">Apartment</option>
                   <option value="house">House</option>
                   <option value="villa">Villa</option>
-                  <option value="guest_house">Guest House</option>
-                  <option value="portfolio">Property Portfolio</option>
+                  <option value="guest_house">Town House</option>
+                  <option value="portfolio">Studio Apartment </option>
                 </select>
               </div>
 
