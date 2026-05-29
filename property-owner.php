@@ -184,7 +184,7 @@ if (empty($_SESSION["csrf_token"])) {
 
               <div class="col-md-4">
                 <label>Area</label>
-                <input type="text" name="area" placeholder="Sea Point, Camps Bay..." required>
+                <input type="text" id="address" name="area" placeholder="Sea Point, Camps Bay..." required>
               </div>
 
               <div class="col-md-4">
@@ -249,6 +249,7 @@ if (empty($_SESSION["csrf_token"])) {
     <script src="assets/js/main.js"></script>
     <script src="assets/js/tab.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/address-autocomplete.js"></script>
 <script>
   $(document).ready(function () {
 

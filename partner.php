@@ -189,7 +189,7 @@ if (empty($_SESSION["csrf_token"])) {
           </select>
 
           <label>Location</label>
-          <input type="text" name="location" placeholder="Atlantic Seaboard, Green Point..." required>
+          <input type="text" id="address" name="location" placeholder="Atlantic Seaboard, Green Point..." required>
 
           <div id="alertMessage" class="alert"></div>
 
@@ -242,6 +242,7 @@ if (empty($_SESSION["csrf_token"])) {
     <script src="assets/js/main.js"></script>
     <script src="assets/js/tab.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/address-autocomplete.js"></script>
     <script src="assets/js/form-auth.js"></script>
     <script>
       $(document).ready(function () {
