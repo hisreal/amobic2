@@ -151,12 +151,12 @@
           </span>
 
           <div class="amobic-waitlist-actions">
-            <a href="property-owner" class="amobic-waitlist-primary">
+            <a href="property-owner.php" class="amobic-waitlist-primary">
               List Your Property
               <i class="bi bi-arrow-right"></i>
             </a>
 
-            <a href="partner" class="amobic-waitlist-secondary">
+            <a href="partner.php" class="amobic-waitlist-secondary">
               Partner With Us
             </a>
           </div>
