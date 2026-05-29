@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^config/send-code/?$ config/send-code.php [L]

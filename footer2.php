@@ -37,7 +37,7 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/tab.js"></script>
     <script src="assets/js/custom.js"></script>
-    <script src="assets/js/form-auth.js"></script>
+    <script src="assets/js/form-auth.js?v=<?php echo filemtime('assets/js/form-auth.js');?>"></script>
 
 
   <!--const openSidebar = document.getElementById("openSidebar");
