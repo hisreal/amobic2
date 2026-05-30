@@ -135,7 +135,7 @@
      
       <div class="amobic-waitlist-copy wow animate__fadeInUp">
         <div style="padding: 80px;" class="amobic-waitlist-title-banner">
-         <a href="wailtlist" class="amobic-waitlist-hero-logo">
+         <a href="waitlist" class="amobic-waitlist-hero-logo">
         <img  style="width: 150px; padding-top: 20px;" src="assets/img/logo/amobic-logo-white-full.png" alt="Amobic">
       </a>
 
