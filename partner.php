@@ -128,7 +128,7 @@ if (empty($_SESSION["csrf_token"])) {
     <div class="preloader" id="preloader">
         <div class="loader"></div>
     </div>
-    <center> <img style="width: 150px; padding-bottom: 20px; padding-top: 30px;" src="assets/img/logo/amobic-logo-dark-full.png" alt="Amobic"></center>
+    <center> <a href="https://www.amobichomes.com/waitlist"><img style="width: 150px; padding-bottom: 20px; padding-top: 30px;" src="assets/img/logo/amobic-logo-dark-full.png" alt="Amobic"></a></center>
 
     <div class="amobic-auth-topbar">
     <button type="button" class="amobic-back-btn" onclick="history.back()">
