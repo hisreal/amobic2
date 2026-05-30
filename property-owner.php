@@ -230,6 +230,9 @@ if (empty($_SESSION["csrf_token"])) {
                     <a href="#">Cookie Policy</a>
                 </div>
             </div>
+            <div class="ul-footer-socials amobic-footer-socials text-center justify-content-center amobic-footer-bottom-wrap">
+                   <a href="#" aria-label="Instagram"><i class="flaticon-instagram"></i></a>   
+            </div>
         </div>
     </div>
 </footer>
